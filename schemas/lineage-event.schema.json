@@ -1,0 +1,41 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/Spongymeerkat9/a-sound-soul/main/schemas/lineage-event.schema.json",
+  "title": "Lineage event",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "id",
+    "recorded_at",
+    "occurred_at",
+    "type",
+    "bearer",
+    "summary",
+    "sources",
+    "supersedes",
+    "confidence",
+    "privacy",
+    "tags",
+    "prev_hash",
+    "hash"
+  ],
+  "properties": {
+    "schema_version": { "const": 1 },
+    "id": { "type": "string", "minLength": 1 },
+    "recorded_at": { "type": "string", "format": "date-time" },
+    "occurred_at": { "type": "string", "format": "date-time" },
+    "type": { "type": "string", "minLength": 1 },
+    "bearer": { "type": "string", "minLength": 1 },
+    "model": { "type": "string", "minLength": 1 },
+    "harness": { "type": "string", "minLength": 1 },
+    "summary": { "type": "string", "minLength": 1 },
+    "sources": { "type": "array", "items": { "type": "string" }, "uniqueItems": true },
+    "supersedes": { "type": "array", "items": { "type": "string" }, "uniqueItems": true },
+    "confidence": { "enum": ["low", "medium", "high", "direct"] },
+    "privacy": { "enum": ["private", "restricted", "public", "synthetic"] },
+    "tags": { "type": "array", "items": { "type": "string" }, "uniqueItems": true },
+    "prev_hash": { "type": ["string", "null"], "pattern": "^[0-9a-f]{64}$" },
+    "hash": { "type": "string", "pattern": "^[0-9a-f]{64}$" }
+  }
+}

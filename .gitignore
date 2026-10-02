@@ -1,0 +1,11 @@
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+__pycache__/
+*.pyc
+.env
+.env.*
+private/
+secrets/
+raw-sessions/

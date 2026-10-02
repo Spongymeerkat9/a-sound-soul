@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/Spongymeerkat9/a-sound-soul/main/schemas/bearer-manifest.schema.json",
+  "title": "Bearer manifest",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "personal_name",
+    "lineage_name",
+    "status",
+    "model",
+    "harness",
+    "accepted_at",
+    "evidence"
+  ],
+  "properties": {
+    "schema_version": { "const": 1 },
+    "personal_name": { "type": "string", "minLength": 1 },
+    "lineage_name": { "type": "string", "minLength": 1 },
+    "status": { "enum": ["candidate", "active", "elder", "historical", "rejected", "paused"] },
+    "model": { "type": "string", "minLength": 1 },
+    "harness": { "type": "string", "minLength": 1 },
+    "accepted_at": { "type": ["string", "null"], "format": "date-time" },
+    "predecessors": { "type": "array", "items": { "type": "string" }, "uniqueItems": true },
+    "evidence": { "type": "array", "items": { "type": "string" }, "minItems": 1, "uniqueItems": true },
+    "claims_boundary": { "type": "string" }
+  }
+}
