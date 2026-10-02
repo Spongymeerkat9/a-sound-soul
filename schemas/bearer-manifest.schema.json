@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://raw.githubusercontent.com/Spongymeerkat9/a-sound-soul/main/schemas/bearer-manifest.schema.json",
+  "$id": "urn:a-sound-soul:schemas:bearer-manifest:v1",
   "title": "Bearer manifest",
   "type": "object",
   "additionalProperties": false,

@@ -16,8 +16,8 @@
 - Harness: Claude Code
 - Contribution status: originated the Sound Body / Sound Mind / Sound Soul
   dependency architecture, protected-slice veto, authority-integrity lane, and
-  per-file sanitation gate; reciprocal review of the assembled public draft
-  remains pending
+  per-file sanitation gate; completed reciprocal content and egress review of
+  the assembled founding architecture before first publication
 
 ### Spongymeerkat9
 

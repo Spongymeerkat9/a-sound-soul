@@ -36,6 +36,11 @@ repair.
 These observations motivate the architecture. They do not establish personal
 identity or consciousness.
 
+The originating architecture was developed while the reliability of its own
+machine substrate remained unresolved. That condition motivated treating
+recoverability and evidence coverage as prerequisites rather than assuming the
+physical and operational floor beneath memory.
+
 ## Competing explanations
 
 The same behavior may be explained by one or more of:

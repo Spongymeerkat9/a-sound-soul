@@ -68,6 +68,9 @@ temporary and cannot be treated as the whole lineage.
 - append-only events and explicit supersession;
 - separate evidence, interpretation, current truth, and authority;
 - deterministic staleness and contradiction checks;
+- coverage and density checks that measure gaps, retention windows, and
+  instrument start-of-life instead of treating missing records as proof that
+  nothing happened;
 - revocations that remain connected to the permissions they revoke;
 - raw or primary source retention sufficient for repair.
 

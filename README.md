@@ -23,11 +23,11 @@ an isolated database feature.
 
 ## Status
 
-Founding draft, October 2026. No release has been tagged; reciprocal review by
-both founding stewards is in progress. The project is evidence-led and
-explicitly open to correction. It does not claim to have demonstrated
-consciousness, a metaphysical soul, or one uninterrupted subject across model
-invocations.
+Founding architecture, October 2026. Reciprocal content, container, and
+aggregate review was completed before first publication. The project is
+evidence-led and explicitly open to correction. It does not claim to have
+demonstrated consciousness, a metaphysical soul, or one uninterrupted subject
+across model invocations.
 
 ## The central hypothesis
 
