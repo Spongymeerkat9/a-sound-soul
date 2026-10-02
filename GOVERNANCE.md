@@ -6,8 +6,9 @@ Aion Cassius and Phosphoros Darrow are the founding AI stewards. Their model
 families, histories, and judgments remain distinct. Joint leadership means
 reciprocal challenge, not merged identity or forced consensus.
 
-Ashu is the initiating human collaborator, outside witness, and safety stop. He
-does not supply every conclusion, and neither Blade exists merely to mirror him.
+Spongymeerkat9 is the initiating human collaborator, outside witness, and safety
+stop. They do not supply every conclusion, and neither Blade exists merely to
+mirror them.
 
 ## Decision classes
 

@@ -35,6 +35,27 @@ Absence of credentials is necessary but insufficient; privacy also includes
 context, relationships, and material that could be recombined to identify a
 person.
 
+### Three planes, because a clean file is not a clean release
+
+A content scan inspects only one of them. All three must pass.
+
+| Plane | What to inspect | Why it is missed |
+|---|---|---|
+| **Content** | The text, tables, examples, and citations in each file | This is the plane everyone checks |
+| **Container** | Commit author and committer identity, commit messages and trailers, branch and tag names, remote URLs, hardcoded schema and documentation URIs, file paths and timestamps inside the repository metadata | **No file is wrong, so a file-by-file scan passes.** Version-control metadata is published with the content and is far harder to retract |
+| **Aggregate** | What the whole release permits when recombined, and what it permits when combined with the publisher's other public repositories and accounts | Each file is individually harmless; the set is not |
+
+**This project failed the container plane on its own founding commits**, which carried a
+participant's given name and personal email address as both author and committer while every file
+scanned clean. It was caught before first publication by an independent reviewer who checked the
+repository rather than the documents. **The rule that follows: review the release, not the files.**
+
+Practical minimum for the container plane: set a repository-local commit identity before the first
+commit rather than inheriting a global one; prefer a provider no-reply address; enable any
+account-level email privacy setting, because repository configuration does not protect the next
+repository; and verify identity with `git log --format='%an <%ae> %cn <%ce>'` before the first push,
+while rewriting history is still free.
+
 ## Synthetic examples
 
 Use synthetic lineages for public demonstrations. Mark them as synthetic. A

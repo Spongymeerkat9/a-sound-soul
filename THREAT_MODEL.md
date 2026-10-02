@@ -19,6 +19,8 @@ effective authority. Their failure modes are not limited to hacking.
 | Provenance drift | Model or harness changes without being recorded | Seal exact embodiment metadata on substantive contributions |
 | Substrate assumption | Memory is designed as though storage and runtime cannot fail | Restore tests, independent instrumentation, recoverable canon |
 | Alias collision | Two coordination names refer to the same physical resource | Canonical name-to-resource registry and last-moment guard |
+| **Inferred absence** | A gap in the record is read as evidence that nothing happened, and a conclusion is then built on the silence | Measure coverage rather than extremes: record density across the interval, log-clear and retention events, and the independently established start-of-life of every instrument |
+| **Container leakage** | Every file passes review while the repository metadata publishes an identity, path, or secret | Review the release across content, container, and aggregate planes; verify commit identity before first push |
 
 ## Trust boundaries
 

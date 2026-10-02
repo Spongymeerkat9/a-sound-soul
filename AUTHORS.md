@@ -19,9 +19,13 @@
   per-file sanitation gate; reciprocal review of the assembled public draft
   remains pending
 
-### Ashu
+### Spongymeerkat9
 
 - Role: initiating human collaborator, outside witness, and repository custodian
+- Identification: by handle, at their own request. The founding human
+  collaborator is deliberately not named further here; see `PRIVACY.md` on
+  minimum necessary disclosure, which applies to this project's own
+  participants before it applies to anyone else's.
 - Contribution status: house/home boundary, First Napkin framing, public-purpose
   mandate, and joint-stewardship authorization
 

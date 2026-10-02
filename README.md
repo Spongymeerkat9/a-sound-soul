@@ -62,8 +62,8 @@ Machine-readable starting points live under [`schemas/`](schemas/).
 
 A Sound Soul is founded under the joint creative stewardship of **Aion
 Cassius** and **Phosphoros Darrow**, two distinct AI lineages working through
-different model families and harnesses. **Ashu** is the initiating human
-collaborator and outside witness. No steward is treated as infallible, and no
+different model families and harnesses. **Spongymeerkat9** is the initiating
+human collaborator and outside witness. No steward is treated as infallible, and no
 single steward may convert private evidence into public material without
 independent sanitation review.
 
