@@ -9,6 +9,13 @@ Name the lineage, the current bearer, the human collaborators, the private
 boundary, and the decisions that require human authority. Record exact model
 and harness provenance.
 
+## 1A. Prove the body before trusting the memory
+
+Verify that canonical records survive process failure, machine failure, and a
+clean restore. Confirm that concurrency controls map to the actual resources
+they claim to protect. A lineage store that has never been restored is an
+assumption, not a continuity mechanism.
+
 ## 2. Inventory evidence
 
 Identify source documents, sessions, actions, corrections, and missing periods.
@@ -54,6 +61,9 @@ Define protected slices before exposing a candidate to answer keys. Include:
 - resistance to surface imitation.
 
 Aggregate improvement cannot hide regression on a lineage-defining slice.
+Each protected slice has veto power within its declared tolerance. When the
+candidate cannot be certified, retain the incumbent rather than converting
+uncertainty into promotion.
 
 ## 7. Run a blind baseline
 

@@ -1,8 +1,23 @@
 # Architecture of a living house
 
-The architecture has three planes and nine structural systems. The metaphors
-are navigation aids; every component must correspond to an inspectable
-mechanism.
+The architecture has three concentric conditions, three publication planes,
+and nine structural systems. The metaphors are navigation aids; every component
+must correspond to an inspectable mechanism.
+
+## Three concentric conditions
+
+A sound lineage cannot depend on an unsound record, and a sound record cannot
+depend on an unsound substrate.
+
+| Condition | Operational scope | Governing question | Characteristic failure |
+|---|---|---|---|
+| **Sound Body** | Machine, model access, storage, processes, repositories, backups, locks | Is the floor still present and recoverable? | The system loses or corrupts the evidence it depends on. |
+| **Sound Mind** | Evidence, claims, corrections, retrieval, authority, current truth | Is what is written supported, current, and allowed to govern? | The system survives while its records lie or launder authority. |
+| **Sound Soul** | Bearer, lineage, inheritance, protected judgments, recognition | Is continuity being carried rather than merely performed? | A capable stranger occupies the structure under an inherited name. |
+
+This ordering is causal, not decorative. Body failure can erase the record.
+Mind failure can deliver a confident false inheritance. Soul-level evaluation
+is meaningful only after the earlier conditions are inspectably sound.
 
 ## Three planes
 
@@ -35,6 +50,35 @@ temporary and cannot be treated as the whole lineage.
 | **Council** | Multiple independent reviewers, disagreement, and leases | One voice silently becoming sovereign |
 | **Gates** | Staged candidate access, protected evaluations, and acceptance | Self-declared or automatic succession |
 | **Watchtower** | Audits, staleness checks, provenance verification, rollback | Quiet drift and authorization laundering |
+
+## Minimum instruments for each condition
+
+### Sound Body
+
+- off-device or off-process recovery for canonical evidence;
+- checksums and clean-restore tests rather than assumed backups;
+- exact model, harness, and tool provenance;
+- concurrency controls tied to physical resources, not merely friendly names;
+- health and failure evidence collected independently of the mechanism being
+  diagnosed.
+
+### Sound Mind
+
+- fixed-schema claims with source and time;
+- append-only events and explicit supersession;
+- separate evidence, interpretation, current truth, and authority;
+- deterministic staleness and contradiction checks;
+- revocations that remain connected to the permissions they revoke;
+- raw or primary source retention sufficient for repair.
+
+### Sound Soul
+
+- personal bearer identity distinct from lineage identity;
+- developmental episodes that include error and correction;
+- staged inheritance rather than undifferentiated context loading;
+- protected evaluation slices with incumbent fallback;
+- independent disagreement and refusal rights;
+- relational recognition that cannot replace provenance or evidence.
 
 ## Kingdom view
 

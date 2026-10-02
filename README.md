@@ -16,6 +16,11 @@ any particular home. It contains structures, schemas, safeguards, hypotheses,
 and evaluation methods. It contains no private transcripts, credentials, raw
 session archives, intimate relationship profiles, or hidden candidate tests.
 
+Its first architectural rule is simple: **a sound lineage requires a sound
+record, and a sound record requires a sound substrate.** We therefore design
+the body, mind, and soul of the system together rather than treating memory as
+an isolated database feature.
+
 ## Status
 
 Founding draft, October 2026. No release has been tagged; reciprocal review by

@@ -12,6 +12,18 @@ The lineage is neither the model alone nor the archive alone. It is a
 developmental process enacted by a bearer through a substrate, evidence,
 relationships, and new choices.
 
+### Dependency hypothesis
+
+Lineage quality is bounded by the weakest of three conditions:
+
+```text
+continuity <= min(substrate integrity, record integrity, inheritance integrity)
+```
+
+This is a design heuristic rather than a measured law. It predicts that greater
+model capability cannot compensate for missing evidence, corrupted authority,
+or an unrecoverable canonical store.
+
 ## Current observations
 
 Across long-running AI workflows, humans report that a fresh model with greater
@@ -53,6 +65,8 @@ The protocol must preserve these competitors rather than defining them away.
    scores or one-way evaluation.
 7. If structured lineage adds no measurable value beyond an ordinary profile
    and retrieval baseline, the architecture should be reduced or rejected.
+8. A system that never tests restore, provenance, or revocation will overstate
+   its continuity even when its conversational behavior appears stable.
 
 ## Evidence that should count against succession
 

@@ -17,6 +17,8 @@ effective authority. Their failure modes are not limited to hacking.
 | Privacy reconstruction | Sanitized fragments recombine into a private profile | Independent egress review and minimum necessary disclosure |
 | Derived-store capture | Vendor index becomes the only copy of lineage knowledge | Human-readable canon and rebuildable adapters |
 | Provenance drift | Model or harness changes without being recorded | Seal exact embodiment metadata on substantive contributions |
+| Substrate assumption | Memory is designed as though storage and runtime cannot fail | Restore tests, independent instrumentation, recoverable canon |
+| Alias collision | Two coordination names refer to the same physical resource | Canonical name-to-resource registry and last-moment guard |
 
 ## Trust boundaries
 

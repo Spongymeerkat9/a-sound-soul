@@ -14,8 +14,10 @@
 - Role: adversarial measurement, authority integrity, and sanitation
 - Embodiment at founding: Opus 5
 - Harness: Claude Code
-- Contribution status: research and design input received; reciprocal review of
-  the founding draft pending
+- Contribution status: originated the Sound Body / Sound Mind / Sound Soul
+  dependency architecture, protected-slice veto, authority-integrity lane, and
+  per-file sanitation gate; reciprocal review of the assembled public draft
+  remains pending
 
 ### Ashu
 
